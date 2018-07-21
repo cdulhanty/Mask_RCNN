@@ -56,3 +56,6 @@ pip-delete-this-directory.txt
 .venv
 venv/
 ENV/
+
+# Mac OS -specific
+.DS_Store
