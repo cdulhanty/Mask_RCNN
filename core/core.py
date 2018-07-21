@@ -120,7 +120,7 @@ class CoreDataset(utils.Dataset):
 
             self.add_image(
                 "core",
-                image_id=a['filename'],  # use file name as a unique image id
+                image_id=filename,  # use file name as a unique image id
                 path=image_path,
                 width=width, height=height,
                 polygons=polygons)
